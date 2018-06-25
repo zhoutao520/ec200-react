@@ -1,0 +1,59 @@
+.home{
+    position: relative;
+    width: 100%;
+    height: 6.78rem;
+    background-size: 100% 100%;
+}
+.machine{
+    min-height: 2.1rem;
+    min-width: 2rem;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px .1rem #000;
+    transition: box-shadow .5s;
+}
+.bottom{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: white;
+}
+.bottom>span{
+    display: inline-block;
+    line-height: 1rem;
+    vertical-align: top;
+    margin-left: 1em;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.floor{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    width: .5rem;
+    height: .9rem;
+    overflow: auto;
+    text-align: center;
+    box-shadow: 1px 1px .1rem #000;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
+.floor::-webkit-scrollbar {
+    width: 0;
+}
+.floor li{
+    line-height: .2rem;
+}
+.floor li:hover{
+    font-size: .18rem;
+    color: #007bfa;
+}

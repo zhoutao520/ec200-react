@@ -1,0 +1,126 @@
+.App {
+  height: 100%;
+  text-align: left;
+  display: flex;
+  overflow: hidden;
+}
+/* 修改模板样式 */
+.ant-menu-sub{
+  background-color: #424d58!important;
+  color: #fff;
+}
+.ant-menu-item > a{
+  display: inline-block;
+  color: #fff;
+}
+.ant-menu-item-selected > a{
+  color: #1890ff;
+}
+.ant-menu-inline-collapsed > .ant-menu-item .anticon{
+  margin-right: .3rem;
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before, .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after{
+  background-image:none;
+}
+.ant-menu-inline-collapsed{
+  width: auto;
+}
+.ant-menu-item,.ant-menu-submenu-title{
+  height: .4rem!important;
+  line-height: .4rem!important;
+  font-size: .14rem!important;
+}
+.ant-menu-inline-collapsed > .ant-menu-item .anticon, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon{
+  font-size: .16rem;
+  line-height: .4rem;
+}
+.ant-menu-inline-collapsed > .ant-menu-item, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title{
+  padding: 0 .32rem!important;
+}
+.ant-dropdown{
+  top: .57rem!important;
+  left: 91%!important;
+}
+.ant-dropdown-menu-item{
+  font-size: .14rem;
+}
+.aside-b{
+  width: 15%;
+  height: 100%;
+  background-color: #424d58;
+}
+.main-b{
+  width: 85%;
+  height: 100%;
+}
+.aside-s{
+  width: 5%;
+  height: 100%;
+  background-color: #424d58;
+}
+.main-s{
+  width: 95%;
+  height: 100%;
+}
+.logo{
+  width: 100%;
+  height: .56rem;
+  background-color: #007bfa;
+  font-size: .16rem;
+  text-align: center;
+}
+.logo img{
+  margin-top: .08rem;
+  height: .4rem;
+}
+.header{
+  width: 100%;
+  height: .56rem;
+  background: #409EFF;
+  line-height: .56rem;
+  color: #fff;
+  font-size: .2rem;
+  padding-right: .2rem;
+}
+.ant-menu-inline-collapsed > .userhead{
+  display: flex;
+  height: .5rem!important;
+  line-height: .5rem!important;
+  padding-left: .1rem!important;
+  color: #fff!important;
+}
+.userhead{
+  display: flex;
+  height: .5rem!important;
+  line-height: .5rem!important;
+  padding-left: 0!important;
+  color: #fff!important;
+}
+.userhead p{
+  line-height: .28rem;
+}
+.userhead img{
+  width: auto;
+  height: .4rem;
+  border-radius: 50%;
+  margin: .05rem;
+}
+.ant-menu-inline-collapsed > .userhead img{
+  height: .3rem;
+  margin: .12rem .13rem;
+}
+
+.user{
+  float: right;
+  font-size: .16rem;
+  line-height: .56rem;
+  color: #fff;
+}
+.header img{
+  width: auto;
+  height: .4rem;
+  border-radius: 50%;
+  float: right;
+  margin-top: .08rem;
+  margin-right: .05rem;
+}
